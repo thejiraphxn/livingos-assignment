@@ -1,0 +1,15 @@
+# SQLite database files created at runtime (including WAL sidecars)
+*.db
+*.db-shm
+*.db-wal
+
+# Local environment
+.env
+
+# Build output
+/billing-api
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
