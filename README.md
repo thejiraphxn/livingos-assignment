@@ -48,7 +48,7 @@ is where most of the care went.
 Layered, with each layer having one job:
 
 ```
-billing-api/
+.
 ├── main.go                       wiring: connect, migrate, build the router, listen
 ├── go.mod
 ├── database/
@@ -92,7 +92,7 @@ struct into both.
 
 ```bash
 git clone <repository-url>
-cd billing-api
+cd <repository-directory>
 
 go mod download
 go run .                 # creates billing.db, migrates it, serves on :8080
